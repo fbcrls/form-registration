@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700" rel="stylesheet">
+      <link rel="stylesheet" href="css/form.css">
+      <title>Form</title>
+</head>
+<body>
+	<div class="formbox">
+        <h1>Form box</h1>
+        <form action="#">
+            <div class="form_username">
+                <h3>Username :</h3>
+                <input type="text" name="form_username" class="form-control form-control-lg" placeholder="Your name" required="">
+            </div>
+            <div class="form_ic">
+                <h3>Identification Number :</h3>
+                <input type="tel" name="form_ic" class="form-control form-control-lg" placeholder="******-**-****" pattern="[0-9]{6}-[0-9]{2}-[0-9]{4}" required="">
+            </div>
+            <div class="form_tel">
+                <h3>Phone Number :</h3>
+                <input type="tel" name="form_tel" class="form-control form-control-lg" placeholder="***-*******" pattern="[0-9]{3}-[0-9]{7}" required="">
+            </div>
+            <div class="form_gender">
+                <h3>Gender :</h3>
+                <select id="form_gender" name="form_gender" required="">
+                    <option value="Choose your gender" selected="" disabled="">Choose your gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div class="form_reason">
+                <h3>State your reason :</h3>
+                <select id="form_reason" name="form_reason" required="">
+                    <option value="Choose your reason" selected="" disabled="">Choose your reason</option>
+                    <option value="Option1">Option 1</option>
+                    <option value="Option2">Option 2</option>
+                    <option value="Option3">Option 3</option>
+                    <option value="Option4">Option 4</option>
+                    <option value="Option5">Option 5</option>
+                    <option value="Option6">Option 6</option>  
+                </select>                
+            </div>
+            <div class="form_submit">
+                <input type="submit" name="form_submit" class="btn btn-primary btn-block" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

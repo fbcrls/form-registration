@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    {box-sizing:border-box}
+}
+html,body{
+	min-width: 1280px;
+  	display: flex;
+  	flex-direction: column;
+  	width: 100%;
+  	background-color: #28B463; 
+}
+.formbox {
+  text-align: center;
+  width: 400px;
+  height: 485px;
+  margin: auto;
+  margin-top: 85px;
+  background-color: #F2F3F4;
+}
+.formbox h1 {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  margin-top: 10px; 
+}
+.form_username h3 {
+  font-family: 'Montserrat';
+  color: black;
+  font-weight: 300;
+  float: left;
+  margin-left: 28px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.form_username input{
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 80%;
+    border: 1px solid grey;
+    outline: none;
+    background: white;
+    padding: 10px;
+}
+.form_ic h3 {
+  font-family: 'Montserrat';
+  color: black;
+  font-weight: 300;
+  float: left;
+  margin-left: 28px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.form_ic input{
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 80%;
+    border: 1px solid grey;
+    outline: none;
+    background: white;
+    padding: 10px;
+}
+.form_tel h3 {
+  font-family: 'Montserrat';
+  color: black;
+  font-weight: 300;
+  float: left;
+  margin-left: 28px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.form_tel input{
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 80%;
+    border: 1px solid grey;
+    outline: none;
+    background: white;
+    padding: 10px;
+}
+.form_gender h3 {
+  font-family: 'Montserrat';
+  color: black;
+  font-weight: 300;
+  float: left;
+  margin-left: 28px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.form_gender select{
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 86%;
+    border: 1px solid grey;
+    outline: none;
+    background: white;
+    padding: 10px;
+}
+.form_reason h3 {
+  font-family: 'Montserrat';
+  color: black;
+  font-weight: 300;
+  float: left;
+  margin-left: 28px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.form_reason select{
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 86%;
+    border: 1px solid grey;
+    outline: none;
+    background: white;
+    padding: 10px;
+}
+.form_submit {
+  margin-top: 20px;
+  text-align: center;
+}
+.form_submit input {
+  font-family: 'Montserrat';
+  height: 100%;
+  width: 88%;
+  border: 1px #424949;
+  outline: none;
+  background: #28B463;
+  cursor: pointer; 
+  padding: 10px;
+  color: white;
+}
